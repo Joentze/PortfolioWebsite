@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="one.js"></script>
+    <head></head>
+
+    <body>
+        <div id="navbar">
+            <a href="#" class="linkNav">Home</a><br>
+            <a href="#" class="linkNav">About</a><br>
+            <button id="dropdown-btn" onclick="portfolioButtonClick()">Portfolio<i class = "fa fa-caret-down"></i></button><br>
+            <div id="dropdown-container">
+                <a href="#" class="linkSubNav">Project one</a><br>
+                <a href="#"class="linkSubNav">Project two</a><br>
+                <a href="#"class="linkSubNav">Project three</a><br>
+            </div>
+            <a href="#"class="linkNav">Contact</a><br>
+        </div>
+        
+        <div id="mainBody">
+            <button id="sideBarButton" onclick="slidingNav()"><img src="image/list.svg"></button> 
+            <div id="header">header</div>
+            <div id="content1" class="mainContentHome"><div id="overlay1"class="overlay"><p>testing this is the text</p></div></div>
+            <div id="content2"class="mainContentHome"><div id="overlay2"class="overlay"></div></div>
+            <div id="content3"class="mainContentHome"><div id="overlay3"class="overlay"></div></div>
+            <div id = "footer"></div>
+        </div><br>
+       
+    </body>
+</html>

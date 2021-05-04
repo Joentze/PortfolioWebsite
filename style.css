@@ -1,0 +1,153 @@
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#navbar{
+    padding-top:30px;
+    padding-left:20px;
+    width:200px;
+    height: 100%;
+    background:rgb(13, 6, 36);
+    position: fixed;
+    top:0;
+    left:0;
+    float:left;
+    transition: 0.3s;
+}
+.linkNav{
+    color:white;
+    text-decoration-line: none ;
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size:30px;
+    margin-top:10px;
+    position: relative;
+    top:auto;
+}
+
+.linkNav:hover{
+    color:rgb(209, 206, 219);
+}
+.linkSubNav:hover{
+    color:rgb(209, 206, 219);
+}
+
+.linkSubNav{
+    color:white;
+    text-decoration-line: none ;
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size:20px;
+    margin-top:10px;
+    padding-left:20px;
+}
+#dropdown-btn{
+    position:relative;
+    left:0;
+    color:white;
+    text-decoration-line: none ;
+    background:none;
+    outline:none;
+    border:none;
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size:30px;
+    text-align: left;
+    margin-left:-8px;
+
+}
+
+#dropdown-btn:hover{
+    color:rgb(209, 206, 219);
+}
+
+
+#dropdown-container{
+
+    background-color:transparent;
+    padding-top:3px;
+    padding-bottom:5px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    padding-left:15px;
+    margin-left:-20px;
+    display:none;
+    left:0;
+}
+
+.fa-caret-down {
+    margin-left:15px;
+    float: right;
+
+  }
+
+#mainBody{
+    float:right;
+    position: absolute;
+
+    top:0;
+    padding-top:20px;
+    width:100%;
+    height:100%;
+    margin-left:200px;
+    padding-bottom:40px;
+    transition: 0.3s;
+}
+#sideBarButton{
+    float:right;
+    margin-left:35px;
+    position: absolute;
+    background:none;
+    outline:none;
+    border:none;
+   
+}
+
+#header{
+
+    text-align:center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: bold;
+    
+}
+
+.fa-bars{
+
+    font-size:30em;
+}
+
+.mainContentHome{
+    width: 94.5vw;
+    height:400px;
+    margin:40px;
+    border-radius:0px;
+    background:red;
+    margin-top:25px;
+}
+
+.overlay{
+
+    position: relative;
+    width:100%;
+    height: 100%;
+    background: rgba(120,120,120,0.0);
+    color: rgba(120,120,120,0.0);
+    z-index:2;
+}
+.overlay:hover{
+    transition-duration:0.3s;
+    backdrop-filter: blur(3px);
+    background: rgba(120,120,120,0.6);
+    color:black;
+}
+
+#content1{
+    background-image:url(image/content1.png);
+}
+
+  @media screen and (max-height: 450px) {
+    .navBar {padding-top: 15px;}
+    .navBar a {font-size: 18px;}
+  }
