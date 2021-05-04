@@ -22,7 +22,7 @@ function slidingNav(){
     if(navBarWidth === "0px"){
         navBar.style.width = '200px'
         mainBody.style.marginLeft ='200px';
-        navBar.style.paddingLeft = '20px'
+        navBar.style.paddingLeft = '15px'
     }
     else if(navBarWidth === "200px"){
         navBar.style.width = '0px'
