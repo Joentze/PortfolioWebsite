@@ -2,6 +2,7 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    overflow-y:scroll;
 }
 
 #navbar{
@@ -286,6 +287,9 @@ html, body {
 }
 
 @media all and (max-width:450px){
+    html{
+        width:max-content;
+    }
     .mainContentHome{
         width:88%;
         height:50%;
@@ -303,7 +307,10 @@ html, body {
         float: none;
         margin-left:10px;
         margin-top: 80%;
-        width:80%;
+        width:90%;
+    }
+    #narrativeTextInside{
+        width:100%;
     }
     #content2{
         width: 100%;

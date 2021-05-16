@@ -1,0 +1,178 @@
+
+#headerText{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:fit-content;
+    text-align:center;
+}
+
+#blurCover{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(5,5,5,0.2);
+
+    backdrop-filter:blur(15px);
+}
+#headerText h2{
+
+    color:rgb(149, 123, 157);
+    font-family: 'Poppins';
+}
+#headerText button{
+    color:rgb(220, 190, 230);
+    position: absolute;
+    top:0;
+    left:0;
+    margin:10px;
+    float: left;
+    width:50px;
+    height:50px;
+    background:transparent;
+    border:none;
+    outline:none;
+}
+#mainbody{
+    margin-top:100px;
+}
+#vidBackground{
+    position:fixed;
+    left:0;
+    top:0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.flexcontainer{
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+.container{
+    z-index: 5;
+    margin:10px;
+    width: 45vw;
+    height:fit-content;
+    background:transparent;
+    
+}
+
+#banner{
+    z-index: 5;
+    position: relative;
+    width:100%;
+    height:76vh;
+}
+    
+#bannerInnerText{
+    height:max-content;
+    padding-top:15%;
+    padding-bottom:15%;
+    margin-left:5%;
+    margin-bottom:40px;
+    transition-duration: 0.7s;
+    font-family:'Poppins';
+    font-size: 40px;
+    fill:none;
+    color:rgb(220, 190, 230);
+    
+}
+#bannerInnerText:hover{
+    transition-duration: 0.7s;
+    transform:skew(-3deg,-3deg);
+}
+#bannerInnerText p{
+    margin-top:-50px;
+    font-family:'Gruppo';
+    font-size:40px;
+}
+
+.roundImage{
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 50%;
+    width:300px;
+    height:300px;
+}
+.roundImage:hover{
+    width:350px;
+    height:350px;
+    transition-duration: 0.8s;
+}
+#homeFace{
+    background-image:url("image/me.jpg");
+    background-size:cover;
+
+}
+.icons i{
+      color:rgb(227, 145, 255);
+}
+.icons{
+    margin:15px;
+    transition-duration:0.5s;
+}
+.itemContainers{
+    display:flex;
+    flex-direction: column;
+    margin-top:5%;
+    margin-left:5%;
+}
+.itemHomeIcons{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#instagram{
+transform:skew(3deg,5deg);
+}
+#instagram:hover{
+transition-duration:0.5s;
+transform:skew(2deg,-4deg);
+}
+#github{
+    transform:skew(-10deg,-4deg);
+}
+#github:hover{
+    transition-duration:0.5s;
+    transform:skew(2deg,-4deg);
+    }
+#linkedin{
+transform:skew(5deg,20deg);
+}
+#linkedin:hover{
+    transition-duration:0.5s;
+    transform:skew(2deg,-4deg);
+    }
+@media all and (max-width:800px){
+    .container{
+        width:90vw;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    video{
+        left:-500px;
+    }
+    #banner{
+        height:400px;
+    }
+    #bannerInnerText{
+        font-size:7vw;
+    }
+    #bannerInnerText p{
+        margin-top:-20px;
+    }
+    .itemHomeIcons{
+        flex-direction: column;
+        order:2;
+    }
+    .itemContainers{
+        flex-direction: row;
+        width:100%;
+        justify-content: center;
+        margin-left:0;
+    }
+}
