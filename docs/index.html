@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="one.js"></script>
+    <head></head>
+
+    <body>
+        <div id="navbar">
+            <a href="#" class="linkNav">Home</a><br>
+            <a href="#" class="linkNav">About</a><br>
+            <button id="dropdown-btn" onclick="portfolioButtonClick()">Portfolio<i class = "fa fa-caret-down"></i></button><br>
+            <div id="dropdown-container">
+                <a href="#" class="linkSubNav">Project one</a><br>
+                <a href="#"class="linkSubNav">Project two</a><br>
+                <a href="#"class="linkSubNav">Project three</a><br>
+            </div>
+            <a href="#"class="linkNav">Contact</a><br>
+        </div>
+        
+        <div id="mainBody"><div id="header">
+            <button id="sideBarButton" onclick="slidingNav()"><img src="image/list.svg"></button> 
+            <h1>Joen.</h1></div>
+            <div id="content1" class="mainContentHome"><div id="overlay1"class="overlay">
+                <div id="overlaytext1">
+                    <h1>My Portfolio</h1>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+
+            </div>
+            </div>
+        </div>
+            <div id="content2"class="mainContentHome"><div id="overlay2">
+                <div id="carousel">
+                    <div id="containerSlider">
+                        <div id = "item1" class="carouselCard">
+                            <div class="textCard">
+                                <h1>Project 1</h1>
+                            </div>
+                        </div>
+                        <div id = "item2" class="carouselCard">
+                            <div class="textCard">
+                                <h1>Project 2</h1>
+                            </div>
+                        </div>
+                        <div id = "item3" class="carouselCard">
+                            <div class="textCard">
+                                <h1>Project 3</h1>
+                            </div>
+                        </div>
+                        <div id = "item4" class="carouselCard">
+                            <div class="textCard">
+                                <h1>Project 4</h1>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div id="toggleArrow">
+                    <button id="thisbutton"class="rightButton" onclick="slidingCards()"></button>
+                </div>
+                <div id = "narrativeText">
+                    <div class="narrativeTextInside">
+
+                        <h1>My Projects.</h1>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    </div>
+                </div>
+
+            </div></div>
+           <!--  <div id="content3"class="mainContentHome"><div id="overlay3"class="overlay"></div></div>-->
+            <div id = "footer"></div>
+        </div><br>
+       
+    </body>
+</html>
